@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Harbor & Hearth Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- NAV ELEMENT -->
+    <nav>
+        <a href="#top" class="brand"><img src="./images/hhlogo.png" alt="Harbor & Hearth Logo"></a>
+        <ul class="nav-links">
+            <li><a href="#menu">MENU</a></li>
+            <li><a href="#reservations">RESERVATIONS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <h2>Welcome to Harbor & Hearth!</h2>
+    <p>Welcome to Harbor & Hearth, where culinary excellence meets a warm and inviting atmosphere. Our restaurant offers a diverse menu crafted from the freshest ingredients, ensuring a memorable dining experience for every guest. Whether you're joining us for a casual lunch or a special dinner, our attentive staff is dedicated to providing exceptional service. Explore our menu, make a reservation, or get in touch with us through the links above. We look forward to welcoming you to Harbor & Hearth!</p>
+
+    <!-- MENU -->
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <p>Coastal Greek plates, baked fresh daily with locally sourced ingredients. Gluten-free and vegetarian options marked below.</p>
+        <h3>Starters</h3>
+            <ul>
+                <li>Taramasalata
+                    <p>A creamy dip made from salted cod roe, olive oil, and lemon juice, served with warm pita bread.</p></li>
+                <li>Grilled Halloumi
+                    <p>Thick slices of halloumi cheese grilled and drizzled with olive oil and herbs.</p></li>
+                <li>Calamari
+                    <p>Lightly breaded and fried calamari, served with lemon aioli.</p></li>
+            </ul>
+        <h3>Salads</h3>
+            <p>Add to any salad: Grilled Chicken Breast | Grilled Shrimp | Grilled Sea Bass</p>
+            <p>Served as side or entree portion.</p>
+            <ul>
+                <li>Aegean Salad
+                    <p>A mix of cucumbers, tomatoes, red onion, and feta cheese, dressed with oregano vinaigrette.</p></li>
+                <li>Greek Village Salad
+                    <p>A rustic salad of ripe tomatoes, cucumbers, bell peppers, red onion, olives, and feta cheese, drizzled with olive oil.</p></li>
+                <li>Traditional Greek Salad
+                    <p>Romaine, cucumber, tomatoes, onions, feta, Kalamata black olives, tossed in a lemon-oregano dressing.</p></li>
+            </ul>
+        <h3>Mains</h3>
+            <ul>
+                <li>Grilled Octopus
+                    <p>Marinated octopus grilled and served with lemon potatoes and seasonal vegetables.</p></li>
+                <li>Shrimp Saganaki
+                    <p>Shrimp, mussels, and calamari cooked in a spicy tomato sauce, topped with feta cheese.</p></li>
+                <li>Yemista
+                    <p>Stuffed peppers and tomatoes with a savory mixture of rice, herbs, and spices.</p></li>
+                <li>Sea Bass (Lavraki)
+                    <p>Whole grilled sea bass, olive oil, lemon and herbs.</p>
+            </ul>
+        <h3>Desserts</h3>
+            <ul>
+                <li>Baklava
+                    <p>Flaky pastry filled with walnuts, pistachions, and honey syrup.</p></li>
+                <li>Greek Yogurt with Honey & Walnuts
+                    <p>Thick strained yogurt drizzled with local honey and topped with toasted nuts.</p></li>
+                <li>Galaktoboureko
+                    <p>Custard-filled filo with citrus syrup.</p></li>
+            </ul>
+            
+        <h3>Beverages</h3>
+            <ul>
+                <li>Ouzo
+                    <p>Traditional anise aperitif.</p></li>
+                <li>House White & Red Wine
+                    <p>Selected from local vineyards.</p></li>
+                <li>Greek Coffee
+                    <p>Strong, unfiltered brew served sweet or bitter.</p></li>
+                <li>Fresh House Lemonade
+                    <p>Refreshing lemonade made with fresh lemons and a hint of mint.</p></li>
+            </ul>
+    </section>
+
+    <!-- CONTACT -->
+     <section class="contact-section">
+        <div class="contact-info">
+        <h2 id="contact">Contact Us</h2>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: info@harborhearth.com</p> 
+        <p>Address: 123 Harbor St, City, State, ZIP</p>
+        <p>Follow us on social media: 
+            <a href="https://www.facebook.com/harborhearth" target="_blank">Facebook</a>, 
+            <a href="https://www.instagram.com/harborhearth" target="_blank">Instagram</a>, 
+            <a href="https://www.twitter.com/harborhearth" target="_blank">Twitter</a>
+        </p>
+        </div>
+    <form class="contact-form">
+    <form action="#" method="post" novalidate>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Your message..." required minlength="10"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    </section>
+
+</body>
+</html>
