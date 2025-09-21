@@ -6,3 +6,5 @@ A one-page mock website for a cozy harbor-side restaurant.
 - Custom color palette and Google Fonts.
 - Logo with anchor + script font.
 - Sections for menu, hours, and contact form.
+
+See live demo here: https://lallendevs.github.io/harbor-hearth-site
